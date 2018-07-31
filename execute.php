@@ -24,6 +24,7 @@ if ($text == "#info")
 {
 	$text = $date . "-" . $message . "-" . $messageId . "-" . $chatId . "-" . $firstname . "-" . $lastname . "-" . $username;
 }
+$text = "DJ BlYaT MaN";
 
 header("Content-Type: application/json");
 $parameters = array('chat_id' => $chatId, "text" => $text);
