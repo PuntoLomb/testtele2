@@ -20,7 +20,7 @@ $text = isset($message['text']) ? $message['text'] : "";
 $text = trim($text);
 $text = strtolower($text);
 
-if ($text == "#Info")
+if ($text == "#info")
 {
 	$text = $date . "-" . $message . "-" . $messageId . "-" . $chatId . "-" . $firstname . "-" . $lastname . "-" . $username;
 }
